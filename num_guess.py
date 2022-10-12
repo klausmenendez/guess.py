@@ -11,11 +11,11 @@ guess=int(input())
 counter=0
 while guess!=num:
  if num<guess:
-    print("Too high-Try Again")
+    print("Too high-try again")
     counter+=1
     guess=int(input())
  elif num>guess:
-    print("Too low-Try Again")
+    print("Too low-try again")
     guess=int(input())
     counter+=1
 if num==guess:
