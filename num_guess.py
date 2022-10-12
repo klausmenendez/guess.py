@@ -5,10 +5,8 @@
 
 
 print("Enter the integer for the player to guess")
-
 num=int(input())
 print("Enter your guess")
-
 guess=int(input())
 counter=0
 while guess!=num:
