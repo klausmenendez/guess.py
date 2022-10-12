@@ -5,18 +5,18 @@
 
 
 print("Enter the integer for the player to guess")
-num=input()
+num=int(input())
 print("Enter your guess")
-guess=input()
+guess=int(input())
 counter=0
 while guess!=num:
  if num<guess:
     print("Too high-Try Again")
     counter+=1
-    guess=input()
+    guess=int(input())
  elif num>guess:
     print("Too low-Try Again")
-    guess=input()
+    guess=int(input())
     counter+=1
 if num==guess:
    print("You guessed it in", counter, "tries")
