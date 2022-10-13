@@ -18,4 +18,4 @@ while guess!=num:
     counter+=1
 if num==guess:
  counter+=1
-   print("You guessed it in", counter, "tries")
+ print("You guessed it in", counter, "tries")
